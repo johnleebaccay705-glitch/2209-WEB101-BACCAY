@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #cdd7e2, #07da89);
+            padding: 25px;
+            text-align: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+        }
+
+        .container {
+            width: 70%;
+            margin: 30px auto;
+        }
+
+        .box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            padding-left: 10px;
+            border-left: 6px solid;
+            font-weight: bold;
+        }
+
+        /* Different color per section */
+        .profile-title { border-color: #4a90e2; }  /* Blue */
+        .hobby-title { border-color: #ff6b6b; }    /* Red */
+        .about-title { border-color: #23c430; }    /* Green */
+        .contact-title { border-color: #ffa600; }  /* Orange */
+
+        .profile-section {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 130px;
+            border-radius: 50%;
+            border: 3px solid #4a90e2;
+            transition: 0.3s;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+
+        ul {
+            margin-top: -5px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">MY BASIC PORTFOLIO</div>
+
+    <div class="container">
+
+        <div class="box">
+            <h2 class="profile-title">Profile</h2>
+            <div class="profile-section">
+                <img src="https://i.ibb.co/BVy30j9y/photo-2025-07-01-21-20-21.jpg"class="profile-img" alt="Profile Photo">
+                <div>
+                    <p><strong>Name:</strong> JOHN LEE R. BACCAY</p>
+                    <p><strong>Age:</strong> 20</p>
+                    <p><strong>Program:</strong> Bachelor of Science in Information Technology</p>
+                    <p><strong>Section:</strong> 22009 </p>
+                    <p><strong>Address:</strong> BRGY 180 CALOOCAN CITY</p>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="box">
+            <h2 class="hobby-title">Hobbies</h2>
+            <ul>
+                <li>Listening to music</li>
+                <li>Traveling</li>
+                <li>Photography</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h2 class="about-title">About Me</h2>   
+            <p>
+            I’m Johnlee, a BSIT student from Bestlink College of the Philippines. 
+                I’m hardworking, easy to train, and always willing to learn new skills. 
+                I have experience working with different people in fast-paced environments, 
+                assisting in daily operations, organizing tasks, and supporting team needs. 
+                I’m committed to delivering quality work in every task given. 
+                In my free time, I enjoy exploring technology and trying out new activities that help me learn and grow.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2 class="contact-title">Contact</h2>
+            <p><strong>Email:</strong> baccayjohnlee.r@gmail.com</p>
+            <p><strong>Phone:</strong> 09109074883</p>
+            <p><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/johnlee-baccay-971271231?trk=contact-info
+
+</body>
+</html> 
